@@ -1,0 +1,3 @@
+﻿  Window.cpp
+c:\users\zareh\desktop\aua\paper\sattest\sattest\window.cpp(65): warning C4018: '<' : signed/unsigned mismatch
+  SATTest.vcxproj -> C:\Users\Zareh\Desktop\AUA\Paper\SATTest\Debug\SATTest.exe
