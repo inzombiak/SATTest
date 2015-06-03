@@ -2,3 +2,6 @@
 *.tlog
 SATTest/Debug/main.obj
 *.obj
+*.exe
+*.pdb
+SATTest/Release/SATTest.log
