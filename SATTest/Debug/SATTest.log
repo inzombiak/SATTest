@@ -1,3 +1,6 @@
-﻿  Window.cpp
-c:\users\zareh\desktop\aua\paper\sattest\sattest\window.cpp(65): warning C4018: '<' : signed/unsigned mismatch
-  SATTest.vcxproj -> C:\Users\Zareh\Desktop\AUA\Paper\SATTest\Debug\SATTest.exe
+﻿  CollisionManager.cpp
+c:\users\zareh\documents\github\sattest\sattest\collisionmanager.cpp(29): warning C4018: '<' : signed/unsigned mismatch
+c:\users\zareh\documents\github\sattest\sattest\collisionmanager.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+c:\users\zareh\documents\github\sattest\sattest\collisionmanager.cpp(108): warning C4018: '<' : signed/unsigned mismatch
+c:\users\zareh\documents\github\sattest\sattest\collisionmanager.cpp(143): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+  SATTest.vcxproj -> C:\Users\Zareh\Documents\GitHub\SATTest\Debug\SATTest.exe

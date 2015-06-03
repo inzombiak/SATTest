@@ -2,6 +2,9 @@
 #define WINDOW_H
 
 #include "Polygon.h"
+#include "CollisionManager.h"
+
+#include <memory>
 
 class Window
 {
@@ -28,6 +31,9 @@ private:
 	//Update window
 	void Update();
 
+	//Moves players polygon and calls for collision check
+	void HandleMouseMove(sf::Event);
+
 	//Window dimensions
 	const int WINDOW_HEIGHT = 480;
 	const int WINDOW_WIDTH = 320;
@@ -43,8 +49,12 @@ private:
 	//Game clock
 	sf::Clock m_clock;
 
-	std::vector<Polygon> m_polygons;
+	//Polygon controlled by user
+	std::shared_ptr<Polygon> m_userPolygon;
 
+	//Vector of polygons
+	std::vector<Polygon> m_polygons;
+	CollisionManager collM;
 };
 
 #endif

@@ -1,0 +1,4 @@
+*.opensdf
+*.tlog
+SATTest/Debug/main.obj
+*.obj
